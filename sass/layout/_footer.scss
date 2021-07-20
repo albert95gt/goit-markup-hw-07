@@ -1,0 +1,116 @@
+    .flex-container {
+        display: flex;
+        align-items: baseline;
+    }
+    .page-footer {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        background: var(--dark-background-color)
+    }
+    .footer-logo {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        color: var(--primery-white-colour);
+        }
+    .map-link {
+        font-style: normal;
+        line-height: 1.71;
+        color: var(--primery-white-colour);
+    
+        transition: color 250ms var(--transition-timing-function);
+        }
+    .map-link:hover,
+    .map-link:focus {
+        color: var(--accent-colour);
+    }
+    .address-link {
+        font-style: normal;
+        line-height: 1.71;
+        color: rgba(255, 255, 255, 0.6);
+        }
+    .address-link:hover,
+    .address-link:focus {
+    color: var(--accent-colour);
+    }
+    
+    .address {
+    margin-top: 20px;
+    }
+    .address :not(:last-child) {
+    margin-bottom: 9px;
+    }
+    .footer-sidebar {
+    margin-left: 70px;
+    }
+    .label {
+    margin-bottom: 20px;
+
+    font-weight: 700;
+    text-transform: uppercase;
+
+    color: var(--primery-white-colour)
+    }
+    .dark-bg {
+    fill: var(--primery-white-colour);
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+
+    transition: background-color 250ms var(--transition-timing-function);
+    }
+    .dark-bg.social-list-link:hover,
+    .dark-bg.social-list-link:focus {
+    background-color: var(--accent-colour);
+    }
+    .footer.social-list-item:not(:last-child){
+    margin-right: 10px;
+    } 
+    .footer-form {
+    margin-left: 93px;
+    }
+    .footer-form-desc {
+    display: block;
+    margin-bottom: 20px;  
+
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--primery-white-colour);
+    }
+    .footer-email-form {
+    display: flex;
+    }
+    .email-form-label {
+    margin-right: 12px;
+    }
+    .email-form-input {
+    width: 358px;
+    height: 50px;
+
+    padding-left: 16px;
+
+    background-color: transparent;
+    color: var(--primery-white-colour);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    outline: none;
+    }
+    .email-form-input:focus {
+    border-color: var(--accent-colour);
+    }
+    .email-form-input::placeholder {
+    font-size: 16px;
+    line-height: 1.25;
+    color: rgba(255, 255, 255, 0.6);
+    }
+    .footer-form-btn {
+    display: flex;
+    align-items: flex-start;
+    width: 200px;
+    height: 50px;
+    padding: 10px 28px;
+    }
+    .footer-form-btn-desc {
+    margin-right: 10px;
+    }
