@@ -22,8 +22,9 @@
         background-color: transparent;
         cursor: pointer;
         transition: fill 250ms var(--transition-timing-function);
+            &:focus,
+            &:hover {
+                fill: var(--accent-colour);
+            }
     }
-    .close-btn:focus,
-    .close-btn:hover {
-        fill: var(--accent-colour);
-    }
+   

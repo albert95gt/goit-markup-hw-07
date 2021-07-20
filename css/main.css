@@ -104,8 +104,7 @@ img {
   transition: background-color 250ms var(--transition-timing-function), box-shadow 250ms var(--transition-timing-function);
 }
 
-.button:hover,
-.button:focus {
+.button:hover, .button:focus {
   background-color: #188CE8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
@@ -154,8 +153,7 @@ img {
   transition: fill 250ms var(--transition-timing-function);
 }
 
-.close-btn:focus,
-.close-btn:hover {
+.close-btn:focus, .close-btn:hover {
   fill: var(--accent-colour);
 }
 
@@ -197,10 +195,6 @@ img {
   border-color: var(--accent-colour);
 }
 
-.modal-form-input:focus + .modal-form-input-icon {
-  fill: var(--accent-colour);
-}
-
 .modal-form-input-wrapper {
   position: relative;
 }
@@ -213,6 +207,10 @@ img {
   width: 12px;
   height: 12px;
   transition: fill 250ms var(--transition-timing-function);
+}
+
+.modal-form-input:focus + .modal-form-input-icon {
+  fill: var(--accent-colour);
 }
 
 .modal-form-massage-label {
@@ -255,10 +253,6 @@ img {
   color: var(--primary-text-colour);
 }
 
-.checkbox-label-link {
-  color: var(--accent-colour);
-}
-
 .modal-form-chekbox-label::before {
   margin-right: 7px;
   display: block;
@@ -281,6 +275,10 @@ img {
 
 .modal-form-chekbox-input:focus + .modal-form-chekbox-label::before {
   outline: 1px solid var(--accent-colour);
+}
+
+.checkbox-label-link {
+  color: var(--accent-colour);
 }
 
 .modal-form-btn {
@@ -346,8 +344,7 @@ img {
   transition: color 250ms var(--transition-timing-function);
 }
 
-.nav-link:hover,
-.nav-link:focus {
+.nav-link:hover, .nav-link:focus {
   color: var(--accent-colour);
 }
 
@@ -376,8 +373,7 @@ img {
   transition: color 250ms var(--transition-timing-function);
 }
 
-.contact-link:hover,
-.contact-link:focus {
+.contact-link:hover, .contact-link:focus {
   color: var(--accent-colour);
 }
 
@@ -532,8 +528,7 @@ img {
   transition: fill 250ms var(--transition-timing-function), background-color 250ms var(--transition-timing-function);
 }
 
-.light-bg.social-list-link:hover,
-.light-bg.social-list-link:focus {
+.light-bg:hover, .light-bg:focus {
   fill: var(--primery-white-colour);
   background-color: var(--accent-colour);
 }
@@ -566,8 +561,7 @@ img {
   transition: fill 250ms var(--transition-timing-function), border 250ms var(--transition-timing-function);
 }
 
-.our-clients-list-link:hover,
-.our-clients-list-link:focus {
+.our-clients-list-link:hover, .our-clients-list-link:focus {
   fill: var(--accent-colour);
   border: 1px solid var(--accent-colour);
 }
@@ -603,8 +597,7 @@ img {
   transition: color 250ms var(--transition-timing-function);
 }
 
-.map-link:hover,
-.map-link:focus {
+.map-link:hover, .map-link:focus {
   color: var(--accent-colour);
 }
 
@@ -614,8 +607,7 @@ img {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.address-link:hover,
-.address-link:focus {
+.address-link:hover, .address-link:focus {
   color: var(--accent-colour);
 }
 
@@ -645,8 +637,7 @@ img {
   transition: background-color 250ms var(--transition-timing-function);
 }
 
-.dark-bg.social-list-link:hover,
-.dark-bg.social-list-link:focus {
+.dark-bg:hover, .dark-bg:focus {
   background-color: var(--accent-colour);
 }
 
@@ -734,8 +725,7 @@ img {
   transition: background-color 250ms var(--transition-timing-function), color 250ms var(--transition-timing-function), box-shadow 250ms var(--transition-timing-function);
 }
 
-.btn:hover,
-.btn:focus {
+.btn:hover, .btn:focus {
   background-color: var(--accent-colour);
   color: var(--primery-white-colour);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);

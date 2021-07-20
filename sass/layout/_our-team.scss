@@ -42,10 +42,12 @@
 
         transition: fill 250ms var(--transition-timing-function),
         background-color 250ms var(--transition-timing-function);
+
+            &:hover,
+            &:focus {
+                fill:var(--primery-white-colour);
+                background-color: var(--accent-colour);
+                
+            }
     }
-    .light-bg.social-list-link:hover,
-    .light-bg.social-list-link:focus {
-        fill:var(--primery-white-colour);
-        background-color: var(--accent-colour);
-        
-    }
+   
