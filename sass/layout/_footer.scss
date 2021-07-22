@@ -9,9 +9,8 @@
     }
     .footer-logo {
         font-family: 'Raleway', sans-serif;
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 1.19;
+        @include font(26px, 700, 1.19);
+        
         color: var(--primery-white-colour);
         }
     .map-link {
@@ -66,10 +65,12 @@
              background-color: var(--accent-colour);
         }
     }
+    .footer-social-list-item {
+        & :not(:last-child){
+            margin-right: 10px;
+            } 
+    }
     
-    .footer.social-list-item:not(:last-child){
-    margin-right: 10px;
-    } 
     .footer-form {
     margin-left: 93px;
     }
@@ -103,8 +104,8 @@
             border-color: var(--accent-colour);
         }
         &::placeholder {
-            font-size: 16px;
-            line-height: 1.25;
+            @include font(16px, 400, 1.25);
+            
             color: rgba(255, 255, 255, 0.6);
         }
     }

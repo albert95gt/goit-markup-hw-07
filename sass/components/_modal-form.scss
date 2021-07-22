@@ -1,9 +1,8 @@
     .modal-form-head {
         margin-bottom: 12px;
+
+        @include font(20px, 700, 1.15);
     
-        font-weight: 700;
-        font-size: 20px;
-        line-height: 1.15;
         text-align: center;
         color: var(--title-text-colour);
     }
@@ -13,8 +12,9 @@
     }
     .modal-form-field {
         margin-bottom: 10px;
-        font-size: 12px;
-        line-height: 1.17;
+
+        @include font(12px, 400, 1.17);
+        
         letter-spacing: 0.01em;
         color: var(--primary-text-colour);
     }
@@ -53,8 +53,9 @@
     }
     .modal-form-massage-label {
         margin-bottom: 20px;
-        font-size: 12px;
-        line-height: 1.17;
+
+        @include font(12px, 400, 1.17);
+        
         letter-spacing: 0.01em;
         color: var(--primary-text-colour);
     }
@@ -75,8 +76,7 @@
                 border-color: var(--accent-colour);
             }
             &::placeholder {
-                font-size: 12px;
-                line-height: 1.17;
+                @include font(12px, 400, 1.17);
                 letter-spacing: 0.01em;
             
                 color: rgba(117, 117, 117, 0.5);
@@ -88,8 +88,9 @@
         margin-bottom: 30px;
         display: flex;
         align-items: center;
-        font-size: 14px;
-        line-height: 1.71;
+        
+        @include font(14px, 400, 1.71);
+       
         color: var(--primary-text-colour);
             &::before {
                 margin-right: 7px;

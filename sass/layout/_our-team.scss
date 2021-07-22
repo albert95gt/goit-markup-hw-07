@@ -19,9 +19,9 @@
 
     .subtitle-name {
         margin-bottom: 10px;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.19;
+        
+        @include font(16px, 500, 1.19);
+        
         text-align: center;
         
         color: var(--title-text-colour);
@@ -31,8 +31,9 @@
     }  
     .caption {
         margin-bottom: 16px;
-        font-size: 16px;
-        line-height: 1.19;
+        
+        @include font(16px, 400, 1.19);
+        
         text-align: center;
     }
     .light-bg{

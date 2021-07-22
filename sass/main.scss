@@ -1,3 +1,8 @@
+// Utils
+@import "./utils/variables";
+@import "./utils/visually-hidden";
+@import "./utils/mixins";
+
 // Base
 @import "./base/common";
 @import "./base/container";
@@ -22,9 +27,6 @@
 @import "./layout/portolio-btn-list";
 @import "./layout/portolio-card-list";
 
-// Utils
-@import "./utils/variables";
-@import "./utils/visually-hidden";
 
 
 
