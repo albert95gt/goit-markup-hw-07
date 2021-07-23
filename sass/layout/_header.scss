@@ -1,6 +1,11 @@
-    .header-container {
+  .header-container {
         display: flex;
         align-items: center;
+
+        padding-top: 24px;
+        padding-bottom: 24px;
+
+        border-bottom: 1px solid #ECECEC;
     }
     .menu {
         display: flex;
@@ -70,12 +75,7 @@
         margin-right: 10px;
         fill:currentColor;
     }
-    .header {
-        padding-top: 24px;
-        padding-bottom: 24px;
 
-        border-bottom: 1px solid #ECECEC;
-    }
     .logo {
         margin-right: 92px;
 
