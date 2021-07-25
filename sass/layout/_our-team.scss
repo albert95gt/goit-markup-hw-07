@@ -1,10 +1,10 @@
-    .our-team-list {
+    .our-team__list {
         display: flex;
         flex-wrap: wrap;
         margin-top: calc( -1 *  var(--primary-margin));
         margin-left: calc( -1 *  var(--primary-margin));
     }
-    .our-team-list-item {
+    .our-team__list-item {
     flex-basis: calc((100% - 120px) / 4);
         margin-top: var(--primary-margin);
         margin-left: var(--primary-margin);
@@ -13,11 +13,11 @@
         box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
         border-radius: 0px 0px 4px 4px;
     }
-    .card-content {
+    .our-team__card-content {
         padding: 30px 30px;
     }
 
-    .subtitle-name {
+    .our-team__subtitle {
         margin-bottom: 10px;
         
         @include font(16px, 500, 1.19);
@@ -29,26 +29,12 @@
     .our-team {
         background: var(--secondary-background-color)
     }  
-    .caption {
+    .our-team__desc {
         margin-bottom: 16px;
         
         @include font(16px, 400, 1.19);
         
         text-align: center;
     }
-    .light-bg{
-        fill: var(--primary-decoration-colour);
-        border-radius: 50%;
-        background-color: var(--primery-white-colour);
-
-        transition: fill 250ms var(--transition-timing-function),
-        background-color 250ms var(--transition-timing-function);
-
-            &:hover,
-            &:focus {
-                fill:var(--primery-white-colour);
-                background-color: var(--accent-colour);
-                
-            }
-    }
+    
    

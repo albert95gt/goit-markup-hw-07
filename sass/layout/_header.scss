@@ -76,17 +76,7 @@
         fill:currentColor;
     }
 
-    .logo {
-        margin-right: 92px;
-
-        font-family: 'Raleway', sans-serif;
-        @include font(26px, 700, 1.19);
-        
-        color: #000000;
-        }
-    .logo__accent {
-        color: var(--accent-colour);
-    }
+    
     
     
 
